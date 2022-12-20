@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+
+div.top {
+  background-image: url(images/background.png);
+  padding: 1.5rem;
+}
+
+div.top h1 {
+  font-size: 2.5rem;
+  color: rgb(121, 129, 102);
+}
+
+div.top h3 {
+  font-size: 1rem;
+}
+
+div.nav {
+  background-color: black;
+}
+
+div.nav ul {
+  display: flex;
+  margin-left: 1rem;
+}
+
+div.nav ul li {
+  padding: 1rem 2rem;
+}
+
+div.nav ul li a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+div.nav .active {
+  color: yellow;
+}
+
+div.nav ul li a:hover {
+  color: yellow;
+  transition: all 1s;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.left {
+  padding: 1rem;
+  flex: 1 1 300px;
+}
+
+div.left h4 {
+  font-size: 1.3rem;
+}
+
+div.left img {
+  margin-top: 1rem;
+  max-width: 30vh;
+}
+
+div.left table {
+  margin-top: 1.5rem;
+}
+
+div.left table tr td {
+  padding: 0.5rem;
+}
+
+div.right {
+  flex: 5 1 600px;
+  margin: 1rem;
+}
+
+div.right h3 {
+  font-size: 1.5rem;
+  color: rgb(121, 129, 102);
+  margin-top: 1rem;
+}
+
+div.right p {
+  padding: 0.5rem 0;
+}
+
+div.right ul {
+  margin: 1.2rem;
+}
+
+/* korea Css */
+
+main .no-flex {
+  display: block;
+}
+
+.korea {
+  margin: 1.5rem 1rem;
+}
+
+.korea p {
+  padding: 0.5rem 0;
+}
+
+.korea h3 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  color: rgb(121, 129, 102);
+}
+
+div.player {
+  margin: 2.5rem 1.5rem;
+  border: 2px solid rgb(154, 96, 207);
+  padding: 0.5rem;
+}
+
+div.player h4 {
+  font-size: 1.4rem;
+  color: rgb(189, 146, 66);
+}
+
+div.player h5 {
+  font-size: 1rem;
+  color: rgb(160, 158, 157);
+  margin: 0.5rem 0;
+}
+
+/* japan Css */
+
+div.japan {
+  display: flex;
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+
+div.japan img {
+  flex: 1 1 300px;
+  max-width: 30vh;
+}
+
+div.japan .info {
+  flex: 3 1 600px;
+  margin: 2rem;
+}
+
+div.japan .info p {
+  padding: 1rem 0;
+}
+
+div.japan .info ul {
+  margin-left: 1.5rem;
+}
+
+div.conpertition .text {
+  margin: 2rem;
+  flex: 5 1 300px;
+}
+
+div.text h3 {
+  font-size: 1.5rem;
+  color: rgb(160, 158, 157);
+  padding-bottom: 1rem;
+}
+
+div.text p {
+  padding: 0.5rem 0;
+}
+
+div.text ul {
+  margin: 1.5rem;
+}
+
+div.conpertition {
+  display: flex;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+#piechart {
+  flex: 1 1 300px;
+}
+
+/* china Css */
+div.header {
+  margin: 1rem;
+}
+div.header h3 {
+  color: rgb(160, 158, 157);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+div.header p {
+  padding: 0.5rem;
+}
+div.footer {
+  margin: 1rem;
+}
+
+div.footer h3 {
+  color: rgb(160, 158, 157);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+div.footer p {
+  padding: 0.5rem;
+}
+
+div.footer table {
+  margin: 1.5rem;
+}
+
+div.footer tr th {
+  background-color: aquamarine;
+}
+
+div.footer table tr td {
+  padding: 0.2rem 1rem;
+}
+
+/* taiwan Css */
+
+.taiwan {
+  margin: 2rem;
+}
+
+.taiwan h4 {
+  color: rgb(160, 158, 157);
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.taiwan p {
+  padding: 0.5rem;
+}
+
+.taiwan ul {
+  margin-left: 1.5rem;
+}
